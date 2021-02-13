@@ -244,14 +244,17 @@ header nav div h2 {
 /* WEB DEVELOPMENT WORK */
 
 .wd-1 {
-    grid-column: 1 / span 2;
     background-image: url("../images/portfolio/web-development/run-buddy.jpg");
     background-position: center;
 }
 
 .wd-2 {
-    grid-column: 3 / span 2;
     background-image: url("../images/portfolio/web-development/Ian-Jackson-Design.jpg");
+    background-position: center;
+}
+
+.wd-3 {
+    background-image: url("../images/portfolio/web-development/weather-dashboard.jpg");
     background-position: center;
 }
 
