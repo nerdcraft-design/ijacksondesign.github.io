@@ -244,36 +244,31 @@ header nav div h2 {
 /* WEB DEVELOPMENT WORK */
 
 .wd-1 {
-    background-image: url("../images/portfolio/web-development/run-buddy.jpg");
+    background-image: url("../images/portfolio/web-development/heat.png");
     background-position: center;
 }
 
 .wd-2 {
-    background-image: url("../images/portfolio/web-development/Ian-Jackson-Design.jpg");
-    background-position: center;
-}
-
-.wd-3 {
-    background-image: url("../images/portfolio/web-development/weather-dashboard.jpg");
-    background-position: center;
-}
-
-.wd-4 {
-    background-image: url("../images/portfolio/web-development/character-generator.jpg");
-    background-position: center;
-}
-
-.wd-5 {
-    background-image: url("../images/portfolio/web-development/killer-reads-screenshot.png");
-    background-position: top;
-}
-
-.wd-6 {
     background-image: url("../images/portfolio/web-development/project-gaia-desktop.png");
     background-position: top;
 }
 
-.wd-7 {
+.wd-3 {
+    background-image: url("../images/portfolio/web-development/killer-reads-screenshot.png");
+    background-position: top;
+}
+
+.wd-4 {
+    background-image: url("../images/portfolio/web-development/weather-dashboard.jpg");
+    background-position: center;
+}
+
+.wd-5 {
+    background-image: url("../images/portfolio/web-development/character-generator.jpg");
+    background-position: center;
+}
+
+.wd-6 {
     background-image: url("../images/portfolio/web-development/tech-exchange-dashboard.JPG");
     background-position: top;
 }
