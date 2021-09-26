@@ -3,11 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 import Header from './components/Header';
 import Background from './assets/images/hero-image/hero-image-1920x1080.jpg';
-import Logo from './assets/images/ian-jackson-logo.svg';
 
 function App() {
   return (
-    <Container fluid
+    <Container fluid className='d-flex justify-content-center align-items-center'
       style={
         {
           backgroundColor: 'black', 
