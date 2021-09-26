@@ -13,16 +13,16 @@ function Header() {
                     <Col>
                         <Nav className='m-4 justify-content-center'>
                             <Nav.Item>
-                                <Nav.Link href='#about'>ABOUT</Nav.Link>
+                                <Nav.Link href='/about'>ABOUT</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href='#about'>DESIGN</Nav.Link>
+                                <Nav.Link href='/graphic-design'>DESIGN</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href='#about'>DEVELOPMENT</Nav.Link>
+                                <Nav.Link href='/web-development'>DEVELOPMENT</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href='#about'>CONTACT</Nav.Link>
+                                <Nav.Link href='/contact'>CONTACT</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Col>
