@@ -13,7 +13,7 @@ import Background from './assets/images/hero-image/hero-image-1920x1080.jpg';
 function App() {
   return (
     <Router>
-      <Container fluid className='pt-5 d-flex flex-column justify-content-center align-items-center'
+      <Container fluid className='pt-5 d-flex flex-column justify-content-center position-relative'
         style={
           {
             minHeight: '100vh',
@@ -34,7 +34,7 @@ function App() {
           </Switch>
         </main>
         
-        <Footer />
+        <Footer className='position-fixed bottom-0' />
       </Container>
     </Router>
   );

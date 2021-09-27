@@ -1,5 +1,5 @@
 // variables go above this import
-
+$primary: #ff483c;
 // custom styles go below this import
 @import "~bootstrap/scss/bootstrap";
 
@@ -28,4 +28,29 @@ img.project-thumbnail {
 
 form {
   color: black;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  margin: 0 1rem;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $primary;
+  transition: width .3s;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: $primary;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
