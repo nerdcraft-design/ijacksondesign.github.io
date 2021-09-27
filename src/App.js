@@ -13,11 +13,12 @@ import Background from './assets/images/hero-image/hero-image-1920x1080.jpg';
 function App() {
   return (
     <Router>
-      <Container fluid className='d-flex flex-column justify-content-center align-items-center'
+      <Container fluid className='pt-5 d-flex flex-column justify-content-center align-items-center'
         style={
           {
             minHeight: '100vh',
-            backgroundImage: `url(${Background})`
+            backgroundImage: `-webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url(${Background})`,
+            backgroundSize: 'no-repeat'
           }
         }
       >
@@ -25,15 +26,16 @@ function App() {
         <Header />
         <main className='my-5 px-5'>
           <Switch>
-            <Route exact path="/" component={About} />
+            <Route exact path="/" />
             <Route exact path="/about" component={About} />
             <Route exact path="/graphic-design" component={Design} />
             <Route exact path="/web-development" component={Dev} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </main>
+        
+        <Footer />
       </Container>
-      <Footer className='position-absolute bottom-0' />
     </Router>
   );
 }

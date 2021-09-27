@@ -7,7 +7,9 @@ function Header() {
         <header>
             <Container className='align-items-center'>
                 <Row className="justify-content-center">
-                    <Image src={Logo} />
+                    <a href='/'>
+                        <Image src={Logo} />
+                    </a>
                 </Row>
                 <Row>
                     <Col>

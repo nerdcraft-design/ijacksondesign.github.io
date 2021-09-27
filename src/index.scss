@@ -11,3 +11,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.footer-icons {
+  width: 60px;
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+img.project-thumbnail {
+  object-fit: cover;
+}
+
+form {
+  color: black;
+}

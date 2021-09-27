@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Nav, Row } from 'react-bootstrap';
+import { Container, Image, Row } from 'react-bootstrap';
 import LinkedIn from '../../assets/images/menu-icons/linked-in.svg';
 import Github from '../../assets/images/menu-icons/github.svg';
 import Instagram from '../../assets/images/menu-icons/instagram.svg';
@@ -9,15 +9,15 @@ function Footer() {
         <footer>
             <Container className='justify-content-center' fluid='md'>
                 <Row className='justify-content-center'>
-                    <Col md={1} className='d-flex justify-content-center'>
+                    <a href='https://www.linkedin.com/in/ijacksondesign/' className='footer-icons' target='_blank'>
                         <Image src={LinkedIn} />
-                    </Col>
-                    <Col md={1} className='d-flex justify-content-center'>
+                    </a>
+                    <a href='https://github.com/ijacksondesign' className='footer-icons' target='_blank'>
                         <Image src={Github} />
-                    </Col>
-                    <Col md={1} className='d-flex justify-content-center'>
+                    </a>
+                    <a href='https://www.instagram.com/ijacksondesign/' className='footer-icons' target='_blank'>
                         <Image src={Instagram} />
-                    </Col>
+                    </a>
                 </Row>
             </Container>
         </footer>
