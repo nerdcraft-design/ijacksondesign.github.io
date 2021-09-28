@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import Logo from '../../assets/images/ian-jackson-logo.svg';
 
 function Header() {
@@ -8,14 +8,15 @@ function Header() {
         <header>
             <Container className='align-items-center'>
                 <Row className="justify-content-center">
-                    <a href='/' className='d-flex justify-content-center'>
-                        <motion.img 
-                            src={Logo} 
-                            animate={{ opacity: [0, 1], y: [100, 0] }}
-                            transition= {{ duration: 1, ease: 'easeOut' }}
-                            style={{ maxWidth: '450px' }}
-                        />
-                    </a>
+                    <Col xs={12} md={6} lg={4}>
+                        <a href='/' className='d-flex justify-content-center'>
+                            <motion.img 
+                                src={Logo} 
+                                animate={{ opacity: [0, 1], y: [100, 0] }}
+                                transition= {{ duration: 1, ease: 'easeOut' }}
+                            />
+                        </a>
+                    </Col>
                 </Row>
                 <Row>
                     <motion.div 
