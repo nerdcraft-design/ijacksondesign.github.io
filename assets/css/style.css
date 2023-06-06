@@ -244,17 +244,17 @@ header nav div h2 {
 /* WEB DEVELOPMENT WORK */
 
 .wd-1 {
-    background-image: url("../images/portfolio/web-development/heat.png");
+    background-image: url("../images/portfolio/web-development/ai-for-cc.jpg");
     background-position: center;
 }
 
 .wd-2 {
-    background-image: url("../images/portfolio/web-development/project-gaia-desktop.png");
+    background-image: url("../images/portfolio/web-development/shakeup-b2b.jpg");
     background-position: top;
 }
 
 .wd-3 {
-    background-image: url("../images/portfolio/web-development/killer-reads-screenshot.png");
+    background-image: url("../images/portfolio/web-development/master-classes.jpg");
     background-position: top;
 }
 
@@ -266,11 +266,6 @@ header nav div h2 {
 .wd-5 {
     background-image: url("../images/portfolio/web-development/character-generator.jpg");
     background-position: center;
-}
-
-.wd-6 {
-    background-image: url("../images/portfolio/web-development/tech-exchange-dashboard.JPG");
-    background-position: top;
 }
 
 
