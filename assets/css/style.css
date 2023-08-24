@@ -244,26 +244,31 @@ header nav div h2 {
 /* WEB DEVELOPMENT WORK */
 
 .wd-1 {
-    background-image: url("../images/portfolio/web-development/ai-for-cc.jpg");
+    background-image: url("../images/portfolio/web-development/ai-for-dm.jpg");
     background-position: center;
 }
 
 .wd-2 {
+    background-image: url("../images/portfolio/web-development/ai-for-cc.jpg");
+    background-position: center;
+}
+
+.wd-3 {
     background-image: url("../images/portfolio/web-development/shakeup-b2b.jpg");
     background-position: top;
 }
 
-.wd-3 {
+.wd-4 {
     background-image: url("../images/portfolio/web-development/master-classes.jpg");
     background-position: top;
 }
 
-.wd-4 {
+.wd-5 {
     background-image: url("../images/portfolio/web-development/weather-dashboard.jpg");
     background-position: center;
 }
 
-.wd-5 {
+.wd-6 {
     background-image: url("../images/portfolio/web-development/character-generator.jpg");
     background-position: center;
 }
