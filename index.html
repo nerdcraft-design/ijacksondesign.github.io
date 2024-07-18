@@ -1,251 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ian Jackson Portfolio</title>
     <link rel="stylesheet" href="https://use.typekit.net/esb0exf.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/scss/custom.css">
 
 </head>
-<body>
+
+<body class="d-flex flex-column justify-content-between" style="height: 100vh;">
 
     <!-- Navigation -->
-    <header>
-        <div class="logo">
-            <a href="https://ianjacksondesign.com">
-                <img src="./assets/images/ian-jackson-logo.svg" alt="Ian Jackson logo" />
-            </a>
-        </div>
-
-        <nav>
-            <div class="nav-item">
-                <a href="#about-me">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-02.svg" alt="About Me Icon" />
-                    </div>
-                    <h2>ABOUT</h2>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="/">
+                    <img src="./assets/images/ian-jackson-logo.svg" alt="Ian Jackson logo" class="logo w-100" />
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="/assets/images/IAN-JACKSON-RESUME.pdf">Resume</a>
+                        <a class="nav-link btn btn-primary" href="#contact">Contact</a>
+                    </div>
+                </div>
             </div>
-            
-            <div class="nav-item">
-                <a href="#portfolio">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-03.svg" alt="Porfolio Icon" />
-                    </div>
-                    <h2>PORTFOLIO</h2>
-                </a>
-            </div>
-
-            <div class="nav-item">
-                <a href="./assets/images/IAN-JACKSON-RESUME.pdf" target="_blank">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-04.svg" alt="Resume Icon" />
-                    </div>
-                    <h2>RESUME</h2>
-                </a>
-            </div>
-
-            <div class="nav-item">
-                <a href="#contact">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-05.svg" alt="Contact Icon" />
-                    </div>
-                    <h2>CONTACT</h2>
-                </a>
-            </div>
-            
-            <div class="nav-item">
-                <a href="https://github.com/ijacksondesign" target="_blank">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-06.svg" alt="GitHub Icon" />
-                    </div>
-                    <h2>GITHUB</h2>
-                </a>
-            </div>  
-
-            <div class="nav-item">
-                <a href="https://www.linkedin.com/in/ian-jackson-0b75718a/" target="_blank">
-                    <div class="nav-icons">
-                        <img src="./assets/images/menu-icons/menu-icons-07.svg" alt="LinkedIn Icon" />
-                    </div>
-                    <h2>LINKEDIN</h2>
-                </a>
-            </div>  
         </nav>
     </header>
 
-
-    <!-- About Me Section -->
-    <section id="about-me">
-        <div>
-            <h2>DESIGN.
-                <br />
-                DEVELOP.
-                <br />
-                CREATE.
-            </h2>
-            <hr />
-            <p>
-                Hello! My name is Ian Jackson and I'm a Graphic Designer and Web Developer with 11 years of experience in the marketing industry with a focus on branding and digital marketing.
-                <br />
-                <br />
-                My goal is to connect you and your brand with your audience through stunning and practical designs. It is my job to learn your needs and find creative solutions to your problems.   
-                <br />
-                <br />
-                Over the course of my career I have worked both in print and digital mediums creating brand identities, point-of-purchase assets, landing pages, websites and social media marketing.
-            </p>
-        </div> 
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="portfolio-wrapper">
-            <article class="portfolio-section">
-                <div class="portfolio-header">
-                    <h2>WEB DEVELOPMENT</h2>
-                    <hr />
-                </div>
-
-                <div class="grid-container">
-                    <a href="https://www.marketingprofs.com/events/ai-for-digital-marketers/home/sa" target="_blank" class="grid-item wd-1">
-                        <h3>AI FOR DIGITAL MARKETERS</h3>   
-                        <h4>EVENT BRANDING + HTML/CSS/JS</h4>
-                    </a>
-                    <a href="https://www.marketingprofs.com/events/ai-for-content-creators/home/sa" target="_blank" class="grid-item wd-2">
-                        <h3>AI FOR CONTENT CREATORS</h3>   
-                        <h4>EVENT BRANDING + HTML/CSS/JS</h4>
-                    </a>
-                    <a href="https://www.marketingprofs.com/events/shakeup-b2b/home/sa/" target="_blank" class="grid-item wd-3">
-                        <h3>SHAKEUP B2B</h3>   
-                        <h4>EVENT BRANDING + HTML/CSS/JS</h4>
-                    </a>
-                    <a href="https://www.marketingprofs.com/training/master-classes" target="_blank" class="grid-item wd-4">
-                        <h3>MARKETINGPROFS MASTER CLASSES</h3>   
-                        <h4>UI DESIGN</h4>
-                    </a>
-                    <a href="https://ianjacksondesign.com/weather-dashboard/" target="_blank" class="grid-item wd-5">
-                        <h3>WEATHER DASHBOARD</h3>   
-                        <h4>HTML/CSS/JAVASCRIPT</h4>
-                    </a>
-                    <a href="https://ianjacksondesign.com/character-generator/" target="_blank" class="grid-item wd-6">
-                        <h3>D&D CHARACTER GENERATOR</h3>   
-                        <h4>HTML/CSS/JAVASCRIPT/MATERIALIZE</h4>
-                    </a>
-                </div>
-            </article>
-            
-            <article class="portfolio-section">
-                <div class="portfolio-header">
-                    <h2>GRAPHIC DESIGN</h2>
-                    <hr />
-                </div>
-
-                <div class="grid-container">
-                    <div class="grid-item gd-1">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>POSTERS</h4>
-                    </div>
-                    <div class="grid-item gd-2">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>PROMOS CARDS</h4>
-                    </div>
-                    <div class="grid-item gd-3">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>DEALER GUIDE</h4>
-                    </div>
-                    <div class="grid-item gd-4">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>EMAILS</h4>
-                    </div>
-                    <div class="grid-item gd-5">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>DIGITAL GUIDE</h4>
-                    </div>
-                    <div class="grid-item gd-6">
-                        <h3>HARLEY-DAVIDSON</h3>
-                        <h4>DEALER TEMPLATES</h4>
-                    </div>
-                    <div class="grid-item gd-7">
-                        <h3>HARLEY-DAVIDSON: LIBERATE THE EIGHT</h3>
-                        <h4>LOGO CONCEPT</h4>
-                    </div>
-                    <div class="grid-item gd-8">
-                        <h3>HARLEY-DAVIDSON: BATTLE OF THE BUILD</h3>
-                        <h4>LOGO CONCEPT</h4>
-                    </div>
-                    <div class="grid-item gd-9">
-                        <h3>PRIMAL COMPANIES</h3>
-                        <h4>LOGO DESIGN & BUSINESS CARDS</h4>
-                    </div>
-                    <div class="grid-item gd-10">
-                        <h3>NAPLES, FL</h3>
-                        <h4>LOGO CONCEPT</h4>
-                    </div>
-                    <div class="grid-item gd-11">
-                        <h3>FGCU</h3>
-                        <h4>BROCHURE</h4>
-                    </div>
-                    <div class="grid-item gd-12">
-                        <h3>FGCU</h3>
-                        <h4>FLYERS</h4>
-                    </div>
-                    <div class="grid-item gd-13">
-                        <h3>FGCU</h3>
-                        <h4>COASTERS</h4>
-                    </div>
-                    <div class="grid-item gd-14">
-                        <h3>MUD READY</h3>
-                        <h4>MAGAZINE AD</h4>
-                    </div>
-                    <div class="grid-item gd-15">
-                        <h3>MUD READY</h3>
-                        <h4>LOGO DESIGN</h4>
-                    </div>
-                    <div class="grid-item gd-16">
-                        <h3>MUD READY</h3>
-                        <h4>T-SHIRTS</h4>
-                    </div>
-                    <div class="grid-item gd-17">
-                        <h3>DEVIL'S BREW</h3>
-                        <h4>LOGO CONCEPT</h4>
-                    </div>
-                    <div class="grid-item gd-18">
-                        <h3>COURT OF OWLS</h3>
-                        <h4>LOGO CONCEPT</h4>
-                    </div>
-                    <div class="grid-item gd-19">
-                        <h3>DSS</h3>
-                        <h4>LOGO DESIGN</h4>
-                    </div>
-                    <div class="grid-item gd-20">
-                        <h3>ROLL20</h3>
-                        <h4>WEBSITE REDESIGN CONCEPT</h4>
+    <main>
+        <!-- About Me Section -->
+        <section id="about-me" class="container-fluid d-flex align-items-center py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="display-2 mb-0">
+                            Design With a Purpose
+                        </h1>
+                        <p class="mb-4 fs-5 w-75">
+                            Hello! I'm Ian Jackson and I want to help elevate your brand and connect with
+                            your
+                            audience
+                            through
+                            strong, visual design.
+                        </p>
+                        <a href="#contact" class="btn btn-lg btn-primary">Get In Touch</a>
+                        <a href="#portfolio" class="btn btn-lg btn-outline-secondary">See My Work</a>
                     </div>
                 </div>
-            </article>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact-form">
-            <h2>THANKS FOR STOPPING BY.
-                <br />
-                <span>NOW LET'S CREATE SOMETHING TOGETHER.</span>
-            </h2>
-            <hr />
+        <!-- Portfolio Section -->
+        <section class="container-fluid py-5">
+            <div class="container">
+                <h2 class="text-center">
+                    Portfolio
+                </h2>
+                <div class="row rows-col-1 rows-col-md-3">
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="./assets/images/portfolio/graphic-design/Harley-Davidson-BotB-logo-concept.jpg"
+                                class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Harley-Davidson</h3>
+                                <p class="card-text">Logo Design</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See More >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="./assets/images/portfolio/graphic-design/Harley-Davidson-BotB-logo-concept.jpg"
+                                class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Harley-Davidson</h3>
+                                <p class="card-text">Logo Design</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See More >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="./assets/images/portfolio/graphic-design/Harley-Davidson-BotB-logo-concept.jpg"
+                                class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Harley-Davidson</h3>
+                                <p class="card-text">Logo Design</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    See More >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="portfolio-wrapper">
+                <article class="portfolio-section">
+                    <div class="portfolio-header">
+                        <h2>WEB DEVELOPMENT</h2>
+                        <hr />
+                    </div>
 
-            <form action="https://formspree.io/f/mpzoovak" method="post">
-                <input type="text" name="name" class="form-input" id="name" placeholder="Your Name" title="Enter your full name" />
-                <input type="email" name="email" class="form-input" id="email" placeholder="Email" title="Enter your email address" />
-                <input type="text" name="subject-line" class="form-input" id="subject-line" placeholder="Subject Line" title="Enter subject line" />
-                <textarea name="message" class="form-input" id="message" placeholder="Message" title="Input message" cols="30" rows="10"></textarea>
-                <button type="submit">SUBMIT</button>
-            </form>
-        </div>
-    </section>
-    
-    
+                    <div class="grid-container">
+                        <a href="https://www.marketingprofs.com/events/ai-for-digital-marketers/home/sa" target="_blank"
+                            class="grid-item wd-1">
+                            <h3>AI FOR DIGITAL MARKETERS</h3>
+                            <h4>EVENT BRANDING + HTML/CSS/JS</h4>
+                        </a>
+                        <a href="https://www.marketingprofs.com/events/ai-for-content-creators/home/sa" target="_blank"
+                            class="grid-item wd-2">
+                            <h3>AI FOR CONTENT CREATORS</h3>
+                            <h4>EVENT BRANDING + HTML/CSS/JS</h4>
+                        </a>
+                        <a href="https://www.marketingprofs.com/events/shakeup-b2b/home/sa/" target="_blank"
+                            class="grid-item wd-3">
+                            <h3>SHAKEUP B2B</h3>
+                            <h4>EVENT BRANDING + HTML/CSS/JS</h4>
+                        </a>
+                        <a href="https://www.marketingprofs.com/training/master-classes" target="_blank"
+                            class="grid-item wd-4">
+                            <h3>MARKETINGPROFS MASTER CLASSES</h3>
+                            <h4>UI DESIGN</h4>
+                        </a>
+                        <a href="https://ianjacksondesign.com/weather-dashboard/" target="_blank"
+                            class="grid-item wd-5">
+                            <h3>WEATHER DASHBOARD</h3>
+                            <h4>HTML/CSS/JAVASCRIPT</h4>
+                        </a>
+                        <a href="https://ianjacksondesign.com/character-generator/" target="_blank"
+                            class="grid-item wd-6">
+                            <h3>D&D CHARACTER GENERATOR</h3>
+                            <h4>HTML/CSS/JAVASCRIPT/MATERIALIZE</h4>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="portfolio-section">
+                    <div class="portfolio-header">
+                        <h2>GRAPHIC DESIGN</h2>
+                        <hr />
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="grid-item gd-1">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>POSTERS</h4>
+                        </div>
+                        <div class="grid-item gd-2">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>PROMOS CARDS</h4>
+                        </div>
+                        <div class="grid-item gd-3">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>DEALER GUIDE</h4>
+                        </div>
+                        <div class="grid-item gd-4">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>EMAILS</h4>
+                        </div>
+                        <div class="grid-item gd-5">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>DIGITAL GUIDE</h4>
+                        </div>
+                        <div class="grid-item gd-6">
+                            <h3>HARLEY-DAVIDSON</h3>
+                            <h4>DEALER TEMPLATES</h4>
+                        </div>
+                        <div class="grid-item gd-7">
+                            <h3>HARLEY-DAVIDSON: LIBERATE THE EIGHT</h3>
+                            <h4>LOGO CONCEPT</h4>
+                        </div>
+                        <div class="grid-item gd-8">
+                            <h3>HARLEY-DAVIDSON: BATTLE OF THE BUILD</h3>
+                            <h4>LOGO CONCEPT</h4>
+                        </div>
+                        <div class="grid-item gd-9">
+                            <h3>PRIMAL COMPANIES</h3>
+                            <h4>LOGO DESIGN & BUSINESS CARDS</h4>
+                        </div>
+                        <div class="grid-item gd-10">
+                            <h3>NAPLES, FL</h3>
+                            <h4>LOGO CONCEPT</h4>
+                        </div>
+                        <div class="grid-item gd-11">
+                            <h3>FGCU</h3>
+                            <h4>BROCHURE</h4>
+                        </div>
+                        <div class="grid-item gd-12">
+                            <h3>FGCU</h3>
+                            <h4>FLYERS</h4>
+                        </div>
+                        <div class="grid-item gd-13">
+                            <h3>FGCU</h3>
+                            <h4>COASTERS</h4>
+                        </div>
+                        <div class="grid-item gd-14">
+                            <h3>MUD READY</h3>
+                            <h4>MAGAZINE AD</h4>
+                        </div>
+                        <div class="grid-item gd-15">
+                            <h3>MUD READY</h3>
+                            <h4>LOGO DESIGN</h4>
+                        </div>
+                        <div class="grid-item gd-16">
+                            <h3>MUD READY</h3>
+                            <h4>T-SHIRTS</h4>
+                        </div>
+                        <div class="grid-item gd-17">
+                            <h3>DEVIL'S BREW</h3>
+                            <h4>LOGO CONCEPT</h4>
+                        </div>
+                        <div class="grid-item gd-18">
+                            <h3>COURT OF OWLS</h3>
+                            <h4>LOGO CONCEPT</h4>
+                        </div>
+                        <div class="grid-item gd-19">
+                            <h3>DSS</h3>
+                            <h4>LOGO DESIGN</h4>
+                        </div>
+                        <div class="grid-item gd-20">
+                            <h3>ROLL20</h3>
+                            <h4>WEBSITE REDESIGN CONCEPT</h4>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-form">
+                <h2>THANKS FOR STOPPING BY.
+                    <br />
+                    <span>NOW LET'S CREATE SOMETHING TOGETHER.</span>
+                </h2>
+                <hr />
+
+                <form action="https://formspree.io/f/mpzoovak" method="post">
+                    <input type="text" name="name" class="form-input" id="name" placeholder="Your Name"
+                        title="Enter your full name" />
+                    <input type="email" name="email" class="form-input" id="email" placeholder="Email"
+                        title="Enter your email address" />
+                    <input type="text" name="subject-line" class="form-input" id="subject-line"
+                        placeholder="Subject Line" title="Enter subject line" />
+                    <textarea name="message" class="form-input" id="message" placeholder="Message" title="Input message"
+                        cols="30" rows="10"></textarea>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
 </html>
