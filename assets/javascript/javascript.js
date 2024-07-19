@@ -2,49 +2,57 @@ const projects = [
   {
       name: 'Harley Davidson',
       category: 'Marketing Design',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainmainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'AI for Demand Gen Marketers',
       category: 'Branding + Web Design',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'Marketing Writing Bootcamp',
       category: 'Branding + Web Design',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'Mud Ready Apparel',
       category: 'Branding',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'Mysteries & Misdeeds',
       category: 'Branding',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'Hornstein Solutions',
       category: 'Branding',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'Roll20',
       category: 'UI Design',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
   {
       name: 'MarketingProfs',
       category: 'Branding + Marketing Design',
-      imgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+      mainImg: '',
+      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
       brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
   },
 ];
@@ -58,13 +66,13 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const newCol = document.createElement("div");
     newCol.classList.add('col');
-    newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5">
-                            <img src="./assets/images/portfolio/${project.name}.jpg"
-                                class="card-img" alt="${project.imgAlt}">
+    newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5 grid-item">
+                            <img src="./assets/images/portfolio/${project.mainImg}"
+                                class="card-img" alt="${project.mainmainImgAlt}">
                             <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                                 <h3 class="card-title">${project.name}</h3>
-                                <p class="card-text">${project.category}</p>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <p class="card-text fs-5">${project.category}</p>
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                     data-bs-target="#modal${counter}">
                                     See More >
                                 </button>
@@ -85,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                         </p>
                                         <div class="row">
                                           <div class="col-12">
-                                            <img src="./assets/images/portfolio/${project.name}.jpg" class="w-100" alt="${project.imgAlt}">
+                                            <img src="./assets/images/portfolio/${project.name}.jpg" class="w-100" alt="${project.mainImgAlt}">
                                           </div>
                                         </div>
                                     </div>

@@ -1,0 +1,46 @@
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 72, 60, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .8s;
+    z-index: 1;
+}
+
+.grid-item h3,
+.grid-item p,
+.grid-item button {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all 0.4s;
+    z-index: 2;
+}
+
+.grid-item:hover.grid-item::after {
+    opacity: 1;
+}
+
+.grid-item:hover h3,
+.grid-item:hover p,
+.grid-item:hover button {
+    top: 0px;
+    opacity: 1;
+}
