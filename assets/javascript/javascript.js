@@ -1,72 +1,80 @@
 const projects = [
-  {
-      name: 'Harley Davidson',
-      category: 'Marketing Design',
-      mainImg: '',
-      mainmainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'AI for Demand Gen Marketers',
-      category: 'Branding + Web Design',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'Marketing Writing Bootcamp',
-      category: 'Branding + Web Design',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'Mud Ready Apparel',
-      category: 'Branding',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'Mysteries & Misdeeds',
-      category: 'Branding',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'Hornstein Solutions',
-      category: 'Branding',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'Roll20',
-      category: 'UI Design',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
-  {
-      name: 'MarketingProfs',
-      category: 'Branding + Marketing Design',
-      mainImg: '',
-      mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-      brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh'
-  },
+    {
+        name: 'Harley-Davidson',
+        category: 'Marketing Design',
+        mainImg: 'harley-davidson-hero.webp',
+        mainmainImgAlt: 'Harley-Davidson Motor Company logo',
+        brief: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network. I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'AI for Demand Gen Marketers',
+        category: 'Branding + Web Design',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'Marketing Writing Bootcamp',
+        category: 'Branding + Web Design',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'Mud Ready Apparel',
+        category: 'Branding',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'Mysteries & Misdeeds',
+        category: 'Branding',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'Hornstein Solutions',
+        category: 'Branding',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'Roll20',
+        category: 'UI Design',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
+    {
+        name: 'MarketingProfs',
+        category: 'Branding + Marketing Design',
+        mainImg: '',
+        mainImgAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        brief: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
+        secondaryImg: 'Harley-Davidson.jpg'
+    },
 ];
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  let counter;
-  const portfolioEl = document.getElementById('portfolio-wrapper');
-  projects.forEach((project) => {
-    
-    const newCol = document.createElement("div");
-    newCol.classList.add('col');
-    newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5 grid-item">
+document.addEventListener("DOMContentLoaded", function () {
+    let counter;
+    const portfolioEl = document.getElementById('portfolio-wrapper');
+    projects.forEach((project) => {
+
+        const newCol = document.createElement("div");
+        newCol.classList.add('col');
+        newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5 grid-item">
                             <img src="./assets/images/portfolio/${project.mainImg}"
                                 class="card-img" alt="${project.mainmainImgAlt}">
                             <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
@@ -80,21 +88,27 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                         <div class="modal fade" id="modal${counter}"" tabindex="-1" aria-labelledby="modal${counter}"Label"
                             aria-hidden="true">
-                            <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <h1 class="modal-title fs-1" id="modal${counter}"Label">${project.name}</h1>
-                                        <p>
-                                          ${project.brief}
-                                        </p>
-                                        <div class="row">
-                                          <div class="col-12">
-                                            <img src="./assets/images/portfolio/${project.name}.jpg" class="w-100" alt="${project.mainImgAlt}">
-                                          </div>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h1 class="modal-title fs-1" id="modal${counter}"Label">
+                                                    ${project.name}
+                                                    </h1>
+                                                    <p>
+                                                    ${project.brief}
+                                                    </p>
+                                                </div>
+                                                <div class="col">
+                                                    <img src="./assets/images/portfolio/${project.secondaryImg}" class="w-100" alt="">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
@@ -104,9 +118,9 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                             </div>
                         </div>`;
-    portfolioEl.appendChild(newCol);
-    counter ++;
-  });
+        portfolioEl.appendChild(newCol);
+        counter++;
+    });
 });
 
 
