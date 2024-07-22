@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </div>
                                     <div class="modal-body">
                                         <div class="container-fluid">
-                                            <div class="row">
+                                            <div class="row row-cols-1 row-cols-md-2">
                                                 <div class="col">
                                                     <h1 class="modal-title fs-1" id="modal${counter}"Label">
                                                     ${project.name}
