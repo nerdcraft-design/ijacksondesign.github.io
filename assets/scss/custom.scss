@@ -61,11 +61,21 @@ html {
 
 #about-me {
     height: 100vh;
-    background-image: url("../images/about-me/about-me-image-1920x1080.jpg");
+    background: url("../images/about-me/about-me-image-1920x1080.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.modal-header, .modal-footer {
+.modal-header,
+.modal-footer {
     border: none;
+}
+
+/* Mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+    /* About Me */
+    #about-me {
+        background: rgb(0, 0, 0);
+    }
 }
