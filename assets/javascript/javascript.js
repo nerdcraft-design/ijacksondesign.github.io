@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <div class="modal fade" id="modal${counter}"" tabindex="-1" aria-labelledby="modal${counter}"Label"
                             aria-hidden="true">
-                            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -111,8 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </div>
                                     <div class="modal-body">
                                         <div class="container-fluid">
-                                            <div class="row row-cols-1 row-cols-md-2">
-                                                <div class="col">
+                                            <div class="row align-items-center">
+                                                <div class="col-12 col-mg-6 col-lg-4">
                                                     <h1 class="modal-title fs-1" id="modal${counter}"Label">
                                                     ${project.name}
                                                     </h1>
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     ${project.briefParagraph2}
                                                     </p>
                                                 </div>
-                                                <div class="col">
+                                                <div class="col-12 col-mg-6 col-lg-8">
                                                     <div id="projectCarousel" class="carousel slide">
                                                         <div class="carousel-indicators">
                                                             <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

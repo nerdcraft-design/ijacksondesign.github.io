@@ -43,10 +43,6 @@ $btn-font-weight: $font-weight-bold;
 // 8. Add additional custom code here
 @import './portfolio';
 
-html {
-    scroll-padding-top: 96px;
-}
-
 .btn {
     letter-spacing: $tracking-tight;
 }
@@ -60,10 +56,13 @@ html {
 }
 
 #about-me {
-    height: 100vh;
-    background: url("../images/about-me/about-me-image-1920x1080.jpg");
+    background: url("../images/about-me/ian-jackson-about-me-desktop.webp");
     background-size: cover;
     background-position: center;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .modal-header,
@@ -72,10 +71,20 @@ html {
 }
 
 /* Mobile phones and smaller */
+@media screen and (max-width: 1023px) {
+    /* About Me */
+    // #about-me {
+    //     background-position: 0% 75%;
+    // }
+}
+
+/* Mobile phones and smaller */
 @media screen and (max-width: 575px) {
 
     /* About Me */
     #about-me {
-        background: rgb(0, 0, 0);
+        background: url("../images/about-me/ian-jackson-about-me-mobile.webp");
+        background-size: cover;
+        background-position: center;
     }
 }

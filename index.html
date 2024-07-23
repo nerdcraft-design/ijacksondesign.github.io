@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="./assets/scss/custom.css" />
 </head>
 
-<body class="d-flex flex-column justify-content-between" style="height: 100vh">
+<body>
   <!-- Navigation -->
-  <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-      <div class="container-fluid d-flex justify-content-between">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="/">
           <img src="./assets/images/ian-jackson-logo.svg" alt="Ian Jackson logo" class="logo w-100" />
         </a>
@@ -46,15 +46,18 @@
     <!-- About Me Section -->
     <section id="about-me" class="container-fluid d-flex align-items-center py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-8">
-            <h1 class="display-2 mb-0">Strategic Design to <em>Elevate <u>Your</u> Brand</em></h1>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6 mb-5 mb-lg-0">
+            <h1 class="display-2 mb-0">Strategic Design to <em>Elevate <br class="d-none d-md-block d-xl-none"><u>Your</u> Brand</em></h1>
             <p class="mb-4 fs-5">
               Hello! I'm Ian Jackson and I want to help grow your brand and connect you to your audience through strong,
               visual design that actually aligns with your marketing plan.
             </p>
-            <a href="#contact" class="btn btn-lg btn-primary mb-3 mb-lg-0 me-2">Get In Touch</a>
+            <a href="#contact" class="btn btn-lg btn-primary me-2">Get In Touch</a>
             <a href="#portfolio" class="btn btn-lg btn-outline-secondary">See My Work</a>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./assets/images/about-me/ian-jackson-about-me-headshot.webp" alt="" class="d-block w-100">
           </div>
         </div>
       </div>
