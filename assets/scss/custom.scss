@@ -43,12 +43,16 @@ $btn-font-weight: $font-weight-bold;
 // 8. Add additional custom code here
 @import './portfolio';
 
+html {
+    scroll-padding-top: 96px;
+}
+
 .btn {
     letter-spacing: $tracking-tight;
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .navbar {
@@ -71,11 +75,10 @@ $btn-font-weight: $font-weight-bold;
 }
 
 /* Mobile phones and smaller */
-@media screen and (max-width: 1023px) {
-    /* About Me */
-    // #about-me {
-    //     background-position: 0% 75%;
-    // }
+@media screen and (max-width: 991px) {
+    html {
+        margin-top: 96px;
+    }
 }
 
 /* Mobile phones and smaller */
