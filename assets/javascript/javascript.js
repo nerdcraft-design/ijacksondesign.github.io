@@ -2,88 +2,106 @@ const projects = [
     {
         name: 'Harley-Davidson',
         category: 'Marketing Design',
-        thumbnail: 'harley-davidson-hero.webp',
+        thumbnail: 'harley-davidson-thumbnail.jpg',
         thumbnailAlt: 'Harley-Davidson Motor Company logo',
         briefParagraph1: 'During my 7 years at Parr Moto, I collaborated with the Harley-Davidson Motor Company to develop a comprehensive suite of marketing materials for their U.S. dealership network.',
         briefParagraph2: 'I led the creative for numerous campaigns to drive sales and engagement across various segments. The campaigns leveraged a multi-channel approach, encompassing both retail and digital touchpoints. Deliverables included in-store signage, email templates and graphics, campaign performance reports, and comprehensive event promotional materials.',
-        firstImg: 'Harley-Davidson.jpg',
-        firstImgAlt: '',
-        secondImg: 'Harley-Davidson.jpg',
-        secondImgAlt: '',
-        thirdImg: 'Harley-Davidson.jpg',
-        thirdImgAlt: '',
-        fourthImg: 'Harley-Davidson.jpg',
-        fourthImgAlt: '',
+        firstImg: 'harley-davidson-thumbnail.jpg',
+        firstImgAlt: 'Harley-Davidson Motor Company logo',
+        secondImg: 'harley-davidson-thumbnail.jpg',
+        secondImgAlt: 'Harley-Davidson Motor Company logo',
+        thirdImg: 'harley-davidson-thumbnail.jpg',
+        thirdImgAlt: 'Harley-Davidson Motor Company logo',
+        fourthImg: 'harley-davidson-thumbnail.jpg',
+        fourthImgAlt: 'Harley-Davidson Motor Company logo',
     },
     {
         name: 'AI for Demand Gen Marketers',
-        category: 'Branding + Web Design',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
+        category: 'Branding + Marketing Design + Web Design',
+        thumbnail: 'aidg-thumbnail.jpg',
+        thumbnailAlt: 'AI for Demand Gen Marketers logo',
+        briefParagraph1: 'AI for Demand Gen Marketers is a 10-week webinar series put on by MarketingProfs to help B2B marketers learn how to use AI to improve their demand generation efforts. ',
+        briefParagraph2: 'The logo was created by combining a robot with magnets to represent the idea of demand generation. The electricity bolts from the logo were then used to create a background pattern and as decorative design elements. To promote the event, I also designed and coded the event microsite and created all the marketing assets including email and social media graphics.',
+        firstImg: 'aidg-thumbnail.jpg',
+        firstImgAlt: 'AI for Demand Gen Marketers logo',
+        secondImg: 'aidg-thumbnail.jpg',
+        secondImgAlt: 'AI for Demand Gen Marketers logo',
+        thirdImg: 'aidg-thumbnail.jpg',
+        thirdImgAlt: 'AI for Demand Gen Marketers logo',
+        fourthImg: 'aidg-thumbnail.jpg',
+        fourthImgAlt: 'AI for Demand Gen Marketers logo',
     },
     {
         name: 'Marketing Writing Bootcamp',
-        category: 'Branding + Web Design',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
-    },
-    {
-        name: 'Mud Ready Apparel',
-        category: 'Branding',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
-    },
-    {
-        name: 'Mysteries & Misdeeds',
-        category: 'Branding',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
+        category: 'Branding + Marketing Design + Web Design',
+        thumbnail: 'mwb-thumbnail.jpg',
+        thumbnailAlt: 'Marketing Writing Bootcamp logo',
+        briefParagraph1: 'In 2020, MarketingProfs put on a webinar series called Marketing Writing Bootcamp which came to be their most successful program ever. In 2024 they decided to bring the event back and I was tasked to create the event branding and promotional assets.',
+        briefParagraph2: 'A badge logo was created along with a background pattern. The colors were made to mimic the classic No.2 pencil and a scribble graphic was made as a design element to create accents and callouts. To promote the event, I also designed and coded the event microsite and created all the marketing assets including email and social media graphics.',
+        firstImg: 'mwb-thumbnail.jpg',
+        firstImgAlt: 'Marketing Writing Bootcamp logo',
+        secondImg: 'mwb-thumbnail.jpg',
+        secondImgAlt: 'Marketing Writing Bootcamp logo',
+        thirdImg: 'mwb-thumbnail.jpg',
+        thirdImgAlt: 'Marketing Writing Bootcamp logo',
+        fourthImg: 'mwb-thumbnail.jpg',
+        fourthImgAlt: 'Marketing Writing Bootcamp logo',
     },
     {
         name: 'Hornstein Solutions',
         category: 'Branding',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
+        thumbnail: 'hornstein-thumbnail.jpg',
+        thumbnailAlt: 'Horstein Solutions logo',
+        briefParagraph1: 'Brian Hornstein reached out to me to help create the brand identity for his freelance CPA and finance business. In our initial meeting, he told me how he used the Japanese concept of sanpo yoshi (the idea of three-way satisfaction that refers to a deal that benefits you, should ultimately also benefit your partners and society at large) as his main business philosophy.',
+        briefParagraph2: 'My ultimate solution was to use a penrose triangle to represent the concept of sanpo yoshi and the interconnectedness of his service to his clientele’s businesses. ',
+        firstImg: 'hornstein-thumbnail.jpg',
+        firstImgAlt: 'Horstein Solutions logo',
+        secondImg: 'hornstein-thumbnail.jpg',
+        secondImgAlt: 'Horstein Solutions logo',
+        thirdImg: 'hornstein-thumbnail.jpg',
+        thirdImgAlt: 'Horstein Solutions logo',
+        fourthImg: 'hornstein-thumbnail.jpg',
+        fourthImgAlt: 'Horstein Solutions logo',
     },
     {
-        name: 'Roll20',
-        category: 'UI Design',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
+        name: 'Mysteries & Misdeeds',
+        category: 'Branding',
+        thumbnail: 'mysteries-and-misdeeds-thumbnail.jpg',
+        thumbnailAlt: 'Mysteries & Misdeeds logo',
+        briefParagraph1: '"Mysteries & Misdeeds is your next favorite podcast about those things that make us scratch our heads, double-check locks at night, and rage-scream for change."',
+        briefParagraph2: 'In 2023, my friends Bri Krantz and Amanda Jeppson approached me to help them with creating a logo for their true crime podcast, Mysteries & Misdeeds. They were looking for a unique and versatile logo that shied away from cliche iconography like podcast microphones. Ultimately, they settled on this solution based on a magic sigil that combines two Ms and a plus sign to represent the initials of the podcast.',
+        firstImg: 'mysteries-and-misdeeds-thumbnail.jpg',
+        firstImgAlt: 'Mysteries & Misdeeds logo',
+        secondImg: 'mysteries-and-misdeeds-thumbnail.jpg',
+        secondImgAlt: 'Mysteries & Misdeeds logo',
+        thirdImg: 'mysteries-and-misdeeds-thumbnail.jpg',
+        thirdImgAlt: 'Mysteries & Misdeeds logo',
+        fourthImg: 'mysteries-and-misdeeds-thumbnail.jpg',
+        fourthImgAlt: 'Mysteries & Misdeeds logo',
     },
     {
-        name: 'MarketingProfs',
-        category: 'Branding + Marketing Design',
-        thumbnail: '',
-        thumbnailAlt: 'turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh',
-        briefParagraph1: 'During my 7 years at Parr Moto, I had the pleasure of working with the Harley-Davidson Motor Company to develop marketing assets that were used across the entire Harley-Davidson United States dealership network.',
-        briefParagraph2: 'I led the creative for dozens of campaigns to promote motorcycle sales and test rides, merchandise, new product launches, and seasonal sales and events. These campaigns utilized assets for both the retail and digital spaces and included (but were not limited to): in-store signage, email templates and graphics, campaign success documents, and event promotions.',
-        firstImg: 'Harley-Davidson.jpg'
-    },
+        name: 'Mud Ready Apparel',
+        category: 'Branding',
+        thumbnail: 'mud-ready-apparel-thumbnail.jpg',
+        thumbnailAlt: 'Mud Ready Apparel logo',
+        briefParagraph1: 'Growing up in the swamps of southern Florida, trail riding and mud bogging were a weekly ritual. We always used to joke that we were always mud ready and what started as a silly phrase became a lifestyle.',
+        briefParagraph2: 'In 2015, I launched Mud Ready Apparel with a long-time friend to help spread the love of mudding. With my background in design and marketing, I took over the role of Brand Director to lead the creative for the company. I developed the logo and brand identity, created all marketing assets, designed merchandise, product photography, website graphics, and any and all other graphic needs.',
+        firstImg: 'mud-ready-apparel-thumbnail.jpg',
+        firstImgAlt: 'Mud Ready Apparel logo',
+        secondImg: 'mud-ready-apparel-thumbnail.jpg',
+        secondImgAlt: 'Mud Ready Apparel logo',
+        thirdImg: 'mud-ready-apparel-thumbnail.jpg',
+        thirdImgAlt: 'Mud Ready Apparel logo',
+        fourthImg: 'mud-ready-apparel-thumbnail.jpg',
+        fourthImgAlt: 'Mud Ready Apparel logo',
+    }
 ];
 
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    let counter;
+    let counter = 0;
+    console.log(counter);
     const portfolioEl = document.getElementById('portfolio-wrapper');
     projects.forEach((project) => {
 
@@ -101,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </button>
                             </div>
                         </div>
-                        <div class="modal fade" id="modal${counter}"" tabindex="-1" aria-labelledby="modal${counter}"Label"
+                        <div class="modal fade" id="modal${counter}" tabindex="-1" aria-labelledby="modal${counter}Label"
                             aria-hidden="true">
                             <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -113,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <div class="container-fluid">
                                             <div class="row align-items-center">
                                                 <div class="col-12 col-mg-6 col-lg-4">
-                                                    <h1 class="modal-title fs-1" id="modal${counter}"Label">
+                                                    <h1 class="modal-title fs-1" id="modal${counter}Label">
                                                     ${project.name}
                                                     </h1>
                                                     <p>
@@ -179,6 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>`;
         portfolioEl.appendChild(newCol);
         counter++;
+        console.log(counter);
     });
 });
 

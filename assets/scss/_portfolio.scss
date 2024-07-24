@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: $primary;
     position: relative;
     overflow: hidden;
 }
@@ -28,7 +28,7 @@
 .grid-item p,
 .grid-item button {
     position: relative;
-    top: 100px;
+    top: 70px;
     opacity: 0;
     transition: all 0.4s;
     z-index: 2;
