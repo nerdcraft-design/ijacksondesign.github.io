@@ -86,13 +86,13 @@ const projects = [
         thumbnailAlt: 'Mud Ready Apparel logo',
         briefParagraph1: 'Growing up in the swamps of southern Florida, trail riding and mud bogging were a weekly ritual. We always used to joke that we were always mud ready and what started as a silly phrase became a lifestyle.',
         briefParagraph2: 'In 2015, I launched Mud Ready Apparel with a long-time friend to help spread the love of mudding. With my background in design and marketing, I took over the role of Brand Director to lead the creative for the company. I developed the logo and brand identity, created all marketing assets, designed merchandise, product photography, website graphics, and any and all other graphic needs.',
-        firstImg: 'mud-ready-apparel-thumbnail.jpg',
+        firstImg: 'mud-ready-1.jpg',
         firstImgAlt: 'Mud Ready Apparel logo',
-        secondImg: 'mud-ready-apparel-thumbnail.jpg',
+        secondImg: 'mud-ready-2.jpg',
         secondImgAlt: 'Mud Ready Apparel logo',
-        thirdImg: 'mud-ready-apparel-thumbnail.jpg',
+        thirdImg: 'mud-ready-3.jpg',
         thirdImgAlt: 'Mud Ready Apparel logo',
-        fourthImg: 'mud-ready-apparel-thumbnail.jpg',
+        fourthImg: 'mud-ready-4.jpg',
         fourthImgAlt: 'Mud Ready Apparel logo',
     }
 ];
