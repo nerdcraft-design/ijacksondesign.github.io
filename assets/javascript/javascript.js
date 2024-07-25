@@ -6,14 +6,14 @@ const projects = [
         thumbnailAlt: 'Harley-Davidson Motor Company logo',
         briefParagraph1: 'During my 7 years at Parr Moto, I collaborated with the Harley-Davidson Motor Company to develop a comprehensive suite of marketing materials for their U.S. dealership network.',
         briefParagraph2: 'I led the creative for numerous campaigns to drive sales and engagement across various segments. The campaigns leveraged a multi-channel approach, encompassing both retail and digital touchpoints. Deliverables included in-store signage, email templates and graphics, campaign performance reports, and comprehensive event promotional materials.',
-        firstImg: 'harley-davidson-thumbnail.jpg',
-        firstImgAlt: 'Harley-Davidson Motor Company logo',
-        secondImg: 'harley-davidson-thumbnail.jpg',
-        secondImgAlt: 'Harley-Davidson Motor Company logo',
-        thirdImg: 'harley-davidson-thumbnail.jpg',
-        thirdImgAlt: 'Harley-Davidson Motor Company logo',
-        fourthImg: 'harley-davidson-thumbnail.jpg',
-        fourthImgAlt: 'Harley-Davidson Motor Company logo',
+        firstImg: 'harley-davidson-1.jpg',
+        firstImgAlt: '3 in-store posters',
+        secondImg: 'harley-davidson-2.jpg',
+        secondImgAlt: 'Sample email graphics displayed on a phone and computer',
+        thirdImg: 'harley-davidson-3.jpg',
+        thirdImgAlt: 'A collection of flyers',
+        fourthImg: 'harley-davidson-4.jpg',
+        fourthImgAlt: 'A collection of in-store counter mat inserts',
     },
     {
         name: 'AI for Demand Gen Marketers',
@@ -22,14 +22,14 @@ const projects = [
         thumbnailAlt: 'AI for Demand Gen Marketers logo',
         briefParagraph1: 'AI for Demand Gen Marketers is a 10-week webinar series put on by MarketingProfs to help B2B marketers learn how to use AI to improve their demand generation efforts. ',
         briefParagraph2: 'The logo was created by combining a robot with magnets to represent the idea of demand generation. The electricity bolts from the logo were then used to create a background pattern and as decorative design elements. To promote the event, I also designed and coded the event microsite and created all the marketing assets including email and social media graphics.',
-        firstImg: 'aidg-thumbnail.jpg',
-        firstImgAlt: 'AI for Demand Gen Marketers logo',
-        secondImg: 'aidg-thumbnail.jpg',
-        secondImgAlt: 'AI for Demand Gen Marketers logo',
-        thirdImg: 'aidg-thumbnail.jpg',
-        thirdImgAlt: 'AI for Demand Gen Marketers logo',
-        fourthImg: 'aidg-thumbnail.jpg',
-        fourthImgAlt: 'AI for Demand Gen Marketers logo',
+        firstImg: 'aidg-1.jpg',
+        firstImgAlt: 'Screenshots of the AI for Demand Gen Marketers website displayed across several devices',
+        secondImg: 'aidg-2.jpg',
+        secondImgAlt: 'A collection of email header graphics ',
+        thirdImg: 'aidg-3.jpg',
+        thirdImgAlt: 'sample social media graphics',
+        fourthImg: 'aidg-4.jpg',
+        fourthImgAlt: 'Brand guidelines document for AI for Demand Gen Marketers',
     },
     {
         name: 'Marketing Writing Bootcamp',
@@ -128,8 +128,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <div class="container-fluid">
-                                            <div class="row align-items-center">
+                                        <div class="container-xxl">
+                                            <div class="row justify-content-between align-items-center">
                                                 <div class="col-12 col-mg-6 col-lg-4">
                                                     <h1 class="modal-title fs-1" id="modal${counter}Label">
                                                     ${project.name}
@@ -141,45 +141,33 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     ${project.briefParagraph2}
                                                     </p>
                                                 </div>
-                                                <div class="col-12 col-mg-6 col-lg-8">
-                                                    <div id="projectCarousel" class="carousel slide">
+                                                <div class="col-12 col-mg-6 col-lg-7">
+                                                    <div id="projectCarousel${counter}" class="carousel slide" data-bs-ride="carousel">
                                                         <div class="carousel-indicators">
-                                                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                            <button type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                            <button type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                            <button type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                            <button type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide-to="3" aria-label="Slide 4"></button>
                                                         </div>
                                                         <div class="carousel-inner">
                                                             <div class="carousel-item active">
                                                                 <img src="./assets/images/portfolio/${project.firstImg}" class="d-block w-100" alt="${project.firstImgAlt}">
-                                                                <div class="carousel-caption d-none d-md-block text-white">
-                                                                    <p>${project.firstImgAlt}</p>
-                                                                </div>
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <img src="./assets/images/portfolio/${project.secondImg}" class="d-block w-100" alt="${project.secondImgAlt}">
-                                                                <div class="carousel-caption d-none d-md-block text-white">
-                                                                    <p>${project.secondImgAlt}</p>
-                                                                </div>
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <img src="./assets/images/portfolio/${project.thirdImg}" class="d-block w-100" alt="${project.thirdImgAlt}">
-                                                                <div class="carousel-caption d-none d-md-block text-white">
-                                                                    <p>${project.thirdImgAlt}</p>
-                                                                </div>
                                                             </div>
                                                             <div class="carousel-item">
                                                                 <img src="./assets/images/portfolio/${project.fourthImg}" class="d-block w-100" alt="${project.fourthImgAlt}">
-                                                                <div class="carousel-caption d-none d-md-block text-white">
-                                                                    <p>${project.fourthImgAlt}</p>
-                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide="prev">
                                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                             <span class="visually-hidden">Previous</span>
                                                         </button>
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide="next">
                                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                             <span class="visually-hidden">Next</span>
                                                         </button>
