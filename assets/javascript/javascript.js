@@ -127,10 +127,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body d-flex align-items-center">
                                         <div class="container-xxl">
                                             <div class="row justify-content-between align-items-center">
-                                                <div class="col-12 col-mg-6 col-lg-4">
+                                                <div class="col-12 col-mg-6 col-lg-4 col-xxl-4">
                                                     <h1 class="modal-title fs-1" id="modal${counter}Label">
                                                     ${project.name}
                                                     </h1>
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     ${project.briefParagraph2}
                                                     </p>
                                                 </div>
-                                                <div class="col-12 col-mg-6 col-lg-7">
+                                                <div class="col-12 col-mg-6 col-lg-7 col-xxl-8">
                                                     <div id="projectCarousel${counter}" class="carousel slide" data-bs-ride="carousel">
                                                         <div class="carousel-indicators">
                                                             <button type="button" data-bs-target="#projectCarousel${counter}" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
