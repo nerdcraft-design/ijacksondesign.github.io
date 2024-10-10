@@ -115,7 +115,7 @@ const projects = [
     },
     {
         name: 'Roll20',
-        category: 'UI Design',
+        category: 'Web Design',
         thumbnail: 'roll20-thumbnail.jpg',
         thumbnailAlt: 'Roll20 logo',
         briefParagraph1: 'Roll20 is a virtual tabletop website that allows people to play tabletop role-playing games digitally with their friends. I used this website to play with my friends during covid, but one thing that bothered me was the, in my opinion, bland UI. This was my attempt at refreshing their branding and website.',
