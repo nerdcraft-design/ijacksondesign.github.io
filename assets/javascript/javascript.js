@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const newCol = document.createElement("div");
         newCol.classList.add('col');
         if (project.projectLink) {
-            newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5 grid-item">
+            newCol.innerHTML += `<div class="card text-bg-dark mb-3 mb-lg-5 grid-item shadow">
                             <img src="./assets/images/portfolio/${project.thumbnail}"
                                 class="card-img" alt="${project.mainthumbnailAlt}">
                             <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <div class="container-xxl">
                                             <div class="row justify-content-between align-items-center">
                                                 <div class="col-12 col-mg-6 col-lg-4 col-xxl-4">
-                                                    <h1 class="modal-title fs-1" id="modal${counter}Label">
+                                                    <h1 class="fs-1" id="modal${counter}Label">
                                                     ${project.name}
                                                     </h1>
                                                     <p>
