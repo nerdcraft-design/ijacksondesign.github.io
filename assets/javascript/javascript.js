@@ -17,7 +17,7 @@ const projects = [
     },
     {
         name: 'AI for Demand Gen Marketers',
-        category: 'Branding + Marketing Design + Web Design',
+        category: 'Branding + Marketing Design + Web Design/Development',
         thumbnail: 'aidg-thumbnail.jpg',
         thumbnailAlt: 'AI for Demand Gen Marketers logo',
         briefParagraph1: 'AI for Demand Gen Marketers is a 10-week webinar series put on by MarketingProfs to help B2B marketers learn how to use AI to improve their demand generation efforts. ',
@@ -34,7 +34,7 @@ const projects = [
     },
     {
         name: 'Marketing Writing Bootcamp',
-        category: 'Branding + Marketing Design + Web Design',
+        category: 'Branding + Marketing Design + Web Design/Development',
         thumbnail: 'mwb-thumbnail.jpg',
         thumbnailAlt: 'Marketing Writing Bootcamp logo',
         briefParagraph1: 'In 2020, MarketingProfs put on a webinar series called Marketing Writing Bootcamp which came to be their most successful program ever. In 2024 they decided to bring the event back and I was tasked to create the event branding and promotional assets.',
@@ -48,6 +48,40 @@ const projects = [
         thirdImgAlt: 'Sample social media graphics',
         fourthImg: 'mwb-4.jpg',
         fourthImgAlt: 'A man wearing a shirt that says Join Writers Talking Writing',
+    },
+    {
+        name: 'Modern Email Marketing Essentials',
+        category: 'Branding + Marketing Design + Web Design/Development',
+        thumbnail: 'meme-thumbnail.jpg',
+        thumbnailAlt: 'Modern Email Marketing Essentials logo',
+        briefParagraph1: 'Modern Email Marketing Essentials is a 10-week webinar series put on by MarketingProfs to help B2B marketers learn todays best practices in email marketing.',
+        briefParagraph2: 'To promote the event I created a logo and a kit of design assets that were used on the event website, across all marketing channels, and attendee communications. I was also in charge of designing and developing the event website which I hand-coded utilizing the Bootstrap 5 UI library.',
+        projectLink: 'https://www.marketingprofs.com/events/modern-email-marketing-essentials/home/sa/',
+        firstImg: 'meme-1.jpg',
+        firstImgAlt: 'Screenshots of the Modern Email Marketing Essentials website displayed across several devices',
+        secondImg: 'meme-2.jpg',
+        secondImgAlt: 'A collection of email header graphics used to promote Modern Email Marketing Essentials',
+        thirdImg: 'meme-3.jpg',
+        thirdImgAlt: 'Sample social media graphics used to promote Modern Email Marketing Essentials',
+        fourthImg: 'meme-4.gif',
+        fourthImgAlt: 'An animated gif scrolling through the Modern Email Marketing Essentials event site',
+    },
+    {
+        name: 'Friday Forum Rollup Page',
+        category: 'Web Design/Development',
+        thumbnail: 'ff-rollup-thumbnail.jpg',
+        thumbnailAlt: 'Friday Forum Rollup Page screenshot',
+        briefParagraph1: 'Friday Forums are monthly mini-conferences hosted by MarketingProfs. Each Friday Forum is comprised of three 45-minute webinar sessions hosted by industry experts.',
+        briefParagraph2: 'Each Friday Forum had an individual event/registration page, but there was no single spot to see all upcoming and past events. This is the rollup page I designed and coded that was then used in a free subscriber Google Ads campaign.',
+        projectLink: 'https://www.marketingprofs.com/training/friday-forum',
+        firstImg: 'ff-1.jpg',
+        firstImgAlt: 'Screenshots of the Friday Forum Rollup page displayed across several devices',
+        secondImg: 'ff-2.gif',
+        secondImgAlt: 'An animated gif scrolling through the Friday Forum Rollup page',
+        thirdImg: 'ff-3.jpg',
+        thirdImgAlt: 'Friday Forum Google Ad creative',
+        fourthImg: 'ff-4.gif',
+        fourthImgAlt: 'An animated gif used for Google Ads to promote the Friday Forum Rollup page',
     },
     {
         name: 'Hornstein Solutions',
@@ -112,38 +146,6 @@ const projects = [
         thirdImgAlt: 'Handbill flyers',
         fourthImg: 'fgcu-4.jpg',
         fourthImgAlt: 'Full-page magazine ads',
-    },
-    {
-        name: 'Roll20',
-        category: 'Web Design',
-        thumbnail: 'roll20-thumbnail.jpg',
-        thumbnailAlt: 'Roll20 logo',
-        briefParagraph1: 'Roll20 is a virtual tabletop website that allows people to play tabletop role-playing games digitally with their friends. I used this website to play with my friends during covid, but one thing that bothered me was the, in my opinion, bland UI. This was my attempt at refreshing their branding and website.',
-        briefParagraph2: 'NOTE: This was a personal project and is in no way affliated with Roll20. Images and copy are property of the original copyright owners.',
-        firstImg: 'roll20-1.jpg',
-        firstImgAlt: 'Collage of conceptual UI screens for Roll20',
-        secondImg: 'roll20-2.jpg',
-        secondImgAlt: 'Roll20 homepage concept',
-        thirdImg: 'roll20-3.jpg',
-        thirdImgAlt: 'Roll20 pricing page concept',
-        fourthImg: 'roll20-4.jpg',
-        fourthImgAlt: 'Roll20 404 error page concept',
-    },
-    {
-        name: "Devil's Brew Coffee Shop",
-        category: 'Logo Design',
-        thumbnail: 'devils-brew-thumbnail.jpg',
-        thumbnailAlt: "Devils' Brew Coffee Shop logo",
-        briefParagraph1: "Devil's Brew is an imaginary coffee shop with a goth/alt aesthetic.",
-        briefParagraph2: 'This logo was designed as part of a logo design study.',
-        firstImg: 'devils-brew-1.jpg',
-        firstImgAlt: "Coffee shop image overlayed with Devil's Brew logo",
-        secondImg: 'devils-brew-2.jpg',
-        secondImgAlt: "Devil's Brew logo on a coaster and coffee cup",
-        thirdImg: 'devils-brew-3.jpg',
-        thirdImgAlt: "Devil's Brew outside sign",
-        fourthImg: 'devils-brew-4.jpg',
-        fourthImgAlt: "Devil's Brew logo on can of cold brew"
     }
 ];
 
@@ -151,7 +153,6 @@ const projects = [
 
 document.addEventListener("DOMContentLoaded", function () {
     let counter = 0;
-    console.log(counter);
     const portfolioEl = document.getElementById('portfolio-wrapper');
     projects.forEach((project) => {
 
@@ -316,6 +317,5 @@ document.addEventListener("DOMContentLoaded", function () {
         
         portfolioEl.appendChild(newCol);
         counter++;
-        console.log(counter);
     });
 });

@@ -5,7 +5,7 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$primary: #ff483c;
+$primary: rgb(255, 72, 60);
 $secondary: rgb(255, 246, 204);
 
 $font-family-sans-serif: paralucent-text, sans-serif;
@@ -34,6 +34,12 @@ $btn-font-weight: $font-weight-bold;
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/root";
 
+$custom-spacers: (
+    6: $spacer * 6
+);
+
+$spacers: map-merge($spacers, $custom-spacers);
+
 // 6. Optionally include any other parts as needed
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -41,72 +47,65 @@ $btn-font-weight: $font-weight-bold;
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-@import './animations';
-@import './portfolio';
+@import "./animations";
+@import "./portfolio";
 
 html {
-    scroll-padding-top: 96px;
+  scroll-padding-top: 96px;
 }
 
 p {
-    letter-spacing: $tracking-wider !important;
+  letter-spacing: $tracking-wider !important;
 }
 
 #about-me {
-    padding-top: 48px;
-    min-height: 70vh;
-    background: linear-gradient(90deg, rgba(0,0,0, 0.75)), url("../images/about-me/fpo-background.jpg");
-    background-size: cover;
-    background-position: center;
+  padding-top: 48px;
+  min-height: 60vh;
+  background: url("../images/about-me/ian-jackson-about-me-desktop.webp");
+  background-size: cover;
+  background-position: center;
 }
 
-#services {
-    transform: translateY(-50%);
+.nav-link {
+  margin-right: $spacer * 1.5;
+}
+
+.nav-link:last-of-type {
+  margin-right: 0;
 }
 
 .btn {
-    letter-spacing: $tracking-tight;
+  letter-spacing: $tracking-tight;
 }
 
 .logo {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .modal-content {
-    background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-header,
 .modal-footer {
-    border: none;
+  border: none;
 }
 
 .service-icon {
-    max-width: 75px;
+  font-size: 5rem;
 }
 
 h2.card-title {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 /* Mobile phones and smaller */
 @media screen and (max-width: 991px) {
-    html {
-        margin-top: 96px;
-    }
-}
-
-/* Mobile phones and smaller */
-@media screen and (max-width: 575px) {
-
-    /* About Me */
-    #about-me {
-        background: url("../images/about-me/ian-jackson-about-me-mobile.webp");
-        background-size: cover;
-        background-position: center;
-    }
+  html {
+    margin-top: 96px;
+  }
 }
