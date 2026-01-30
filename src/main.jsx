@@ -26,10 +26,10 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="page-wrapper position-relative">
-      <ScrollRestoration />
       <Header />
       <main>
         <RouterProvider router={router} />
+        <ScrollRestoration />
         <Footer />
       </main>
     </div>
