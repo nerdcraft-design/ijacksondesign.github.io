@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 // Pages
 import Home from "./pages/Home";
 import ProjectItem from "./pages/ProjectItem";
@@ -25,6 +26,7 @@ createRoot(document.getElementById("root")).render(
       <main>
         <RouterProvider router={router} />
       </main>
+      <Footer />
     </div>
   </StrictMode>,
 );

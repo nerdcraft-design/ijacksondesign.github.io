@@ -6,7 +6,6 @@ import SkillsScroller from "../../components/SkillsScroller";
 import References from "../../components/References";
 import Brands from "../../components/Brands";
 import Contact from "../../components/Contact";
-import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
       <References />
       <Brands />
       <Contact />
-      <Footer />
     </>
   );
 }
