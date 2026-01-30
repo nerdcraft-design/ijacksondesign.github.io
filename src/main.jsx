@@ -1,11 +1,14 @@
 // React
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
 // Components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 // Pages
 import Home from "./pages/Home";
 import ProjectItem from "./pages/ProjectItem";
@@ -23,9 +26,9 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="page-wrapper position-relative">
+      <ScrollRestoration />
       <Header />
       <main>
-        <ScrollToTop />
         <RouterProvider router={router} />
         <Footer />
       </main>
