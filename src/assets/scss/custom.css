@@ -21999,6 +21999,9 @@ hr {
 }
 
 @media screen and (max-width: 575px) {
+  html {
+    scroll-padding-top: 50px;
+  }
   #hero h1, #hero .h1 {
     font-size: 2.5rem;
   }
