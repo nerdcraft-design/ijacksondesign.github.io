@@ -1,0 +1,63 @@
+.btn-primary {
+  position: relative;
+  &::after {
+    content: "\F135";
+    font-family: bootstrap-icons;
+    margin-left: 0.25em;
+    position: relative;
+    top: 2px;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    &::after {
+      content: "\F138";
+    }
+  }
+}
+
+.btn-outline-light {
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+}
+
+.btn-download {
+  position: relative;
+  &::after {
+    content: "\F356";
+    font-family: bootstrap-icons;
+    margin-left: 0.25em;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.btn-email {
+  position: relative;
+  &::after {
+    content: "\F32F";
+    font-family: bootstrap-icons;
+    margin-left: 0.25em;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.btn-linkedin {
+  position: relative;
+  &::after {
+    content: "\F472";
+    font-family: bootstrap-icons;
+    margin-left: 0.25em;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media screen and (min-width: 498px) {
+  #hero .btn {
+    margin-bottom: 0 !important;
+  }
+}

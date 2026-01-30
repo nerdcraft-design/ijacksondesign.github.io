@@ -1,0 +1,37 @@
+.scroller__inner {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: $secondary;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.scroller__item {
+  display: inline-block;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  mask: linear-gradient(90deg, transparent, $dark 20%, $dark 80%, transparent);
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    $dark 20%,
+    $dark 80%,
+    transparent
+  );
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 1.5rem));
+  }
+}

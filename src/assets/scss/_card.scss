@@ -1,0 +1,112 @@
+.card.portfolio-item {
+  border-color: $secondary;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $primary;
+  }
+
+  &:hover .btn-primary {
+    background-color: rgb(255, 94.8, 94.8);
+
+    &::after {
+      content: "\F138";
+    }
+  }
+
+  &:hover img {
+    transform: scale(1.1);
+  }
+}
+
+.card .img-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.card h3,
+#project h1 {
+  text-transform: uppercase;
+  color: $secondary;
+  font-size: 1.25rem;
+  font-weight: 300 !important;
+  letter-spacing: $tracking-wide;
+}
+
+.card h4,
+#project h2 {
+  font-size: 3rem;
+}
+
+.card.testimonial {
+  position: relative;
+}
+
+.card.testimonial .card-body {
+  position: relative;
+  z-index: 2;
+
+  &:before {
+    content: "\F6B0";
+    font-family: bootstrap-icons;
+    font-size: 8rem;
+    position: absolute;
+    color: $gray-800;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card h3,
+  #project h1 {
+    font-size: 1rem;
+  }
+
+  .card h4,
+  #project h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card.testimonial .card-body {
+    &:before {
+      top: -23%;
+      left: -4%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card.testimonial .card-body {
+    &:before {
+      top: -10%;
+      left: -7%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card.testimonial .card-body {
+    &:before {
+      top: -12%;
+      left: -10%;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card.testimonial .card-body {
+    &:before {
+      top: -15%;
+      left: -10%;
+    }
+  }
+}

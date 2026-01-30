@@ -1,0 +1,12 @@
+.badge {
+  background: none !important;
+  border: solid 1px white !important;
+  letter-spacing: $tracking-wider;
+}
+
+/* Mobile phones and smaller */
+@media screen and (max-width: 500px) {
+  .badge {
+    padding: 0.5em 1.25em;
+  }
+}

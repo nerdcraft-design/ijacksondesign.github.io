@@ -1,0 +1,196 @@
+{
+  "projects": [
+    {
+      "name": "AI for Demand Gen Marketers",
+      "projectUrl": "aidg",
+      "tagline": "Boosting Funnel Conversions with AI",
+      "categories": [
+        "Branding",
+        "Web Design",
+        "Web Development",
+        "Marketing Design"
+      ],
+      "thumbnail": "/aidg/aidg-thumbnail.jpg",
+      "thumbnailAlt": "AI for Demand Gen Marketers logo",
+      "projectDescription": "AI for Demand Gen Marketers is a 10-week webinar series put on by MarketingProfs to help B2B marketers learn how to use AI to improve their demand generation efforts. The logo was created by combining a robot with magnets to represent the idea of demand generation. The electricity bolts from the logo were then used to create a background pattern and as decorative design elements. To promote the event, I also designed and coded the event microsite and created all the marketing assets including email and social media graphics. ",
+      "deliverables": [
+        "Logo and Style Guide",
+        "Event Website",
+        "Email Graphics",
+        "Social Media Graphics"
+      ],
+      "images": [
+        {
+          "imageLink": "/aidg/aidg-1.jpg",
+          "imageAlt": "Screenshots of the AI for Demand Gen Marketers website displayed across several devices."
+        },
+        {
+          "imageLink": "/aidg/aidg-2.jpg",
+          "imageAlt": "A collection of email header graphics."
+        },
+        {
+          "imageLink": "/aidg/aidg-3.jpg",
+          "imageAlt": "Sample social media graphics."
+        },
+        {
+          "imageLink": "/aidg/aidg-4.jpg",
+          "imageAlt": "Brand guidelines document for AI for Demand Gen Marketers."
+        }
+      ]
+    },
+    {
+      "name": "Marketing Writing Bootcamp",
+      "projectUrl": "mwb",
+      "tagline": "Writers Talking Writing",
+      "categories": [
+        "Branding",
+        "Web Design",
+        "Web Development",
+        "Marketing Design"
+      ],
+      "thumbnail": "/mwb/mwb-thumbnail.jpg",
+      "thumbnailAlt": "Marketing Writing Bootcamp logo",
+      "projectDescription": "In 2020, MarketingProfs put on a webinar series called Marketing Writing Bootcamp which came to be their most successful program ever. In 2024 they decided to bring the event back and I was tasked to create the event branding and promotional assets. A badge logo was created along with a background pattern. The colors were made to mimic the classic No.2 pencil and a scribble graphic was made as a design element to create accents and callouts. To promote the event, I also designed and coded the event microsite and created all the marketing assets including email and social media graphics.",
+      "deliverables": [
+        "Logo and Style Guide",
+        "Event Website",
+        "Email Graphics",
+        "Social Media Graphics"
+      ],
+      "images": [
+        {
+          "imageLink": "/mwb/mwb-1.jpg",
+          "imageAlt": "Screenshots of the Marketing Writing Bootcamp website displayed across several devices."
+        },
+        {
+          "imageLink": "/mwb/mwb-2.jpg",
+          "imageAlt": "A collection of email header graphics."
+        },
+        {
+          "imageLink": "/mwb/mwb-3.jpg",
+          "imageAlt": "Sample social media graphics."
+        },
+        {
+          "imageLink": "/mwb/mwb-4.jpg",
+          "imageAlt": "A man wearing a shirt that says Join Writers Talking Writing."
+        }
+      ]
+    },
+    {
+      "name": "Harley-Davidson",
+      "projectUrl": "harley-davidson",
+      "tagline": "Retail Solutions",
+      "categories": ["Marketing Design"],
+      "thumbnail": "/hd/harley-davidson-thumbnail.jpg",
+      "thumbnailAlt": "Harley-Davidson Motor Company logo",
+      "projectDescription": "During my 7 years at Parr Moto, I collaborated with the Harley-Davidson Motor Company to develop a comprehensive suite of marketing materials for their U.S. dealership network. I led the creative for numerous campaigns to drive sales and engagement across various segments. The campaigns leveraged a multi-channel approach, encompassing both retail and digital touchpoints. Deliverables included in-store signage, email templates and graphics, campaign performance reports, and comprehensive event promotional materials.",
+      "deliverables": [
+        "Seasonal Retail Kits",
+        "Email Graphics",
+        "Social Media Graphics"
+      ],
+      "images": [
+        {
+          "imageLink": "/hd/harley-davidson-1.jpg",
+          "imageAlt": "3 in-store posters."
+        },
+        {
+          "imageLink": "/hd/harley-davidson-2.jpg",
+          "imageAlt": "Sample email graphics displayed on a phone and computer."
+        },
+        {
+          "imageLink": "/hd/harley-davidson-3.jpg",
+          "imageAlt": "A collection of flyers."
+        },
+        {
+          "imageLink": "/hd/harley-davidson-4.jpg",
+          "imageAlt": "A collection of in-store counter mat inserts."
+        }
+      ]
+    },
+    {
+      "name": "Friday Forum Rollup Page",
+      "projectUrl": "friday-forum",
+      "tagline": "Access All Events and See Upcoming",
+      "categories": ["Web Design", "Web Development"],
+      "thumbnail": "/forums/ff-rollup-thumbnail.jpg",
+      "thumbnailAlt": "Friday Forum Rollup Page screenshot",
+      "projectDescription": "Friday Forums are monthly mini-conferences hosted by MarketingProfs. Each Friday Forum is comprised of three 45-minute webinar sessions hosted by industry experts. Each Friday Forum had an individual event/registration page, but there was no single spot to see all upcoming and past events. This is the rollup page I designed and coded that was then used in a free subscriber Google Ads campaign.",
+      "deliverables": ["Event Page"],
+      "images": [
+        {
+          "imageLink": "/forums/ff-1.jpg",
+          "imageAlt": "Screenshots of the Friday Forum Rollup page displayed across several devices."
+        },
+        {
+          "imageLink": "/forums/ff-2.gif",
+          "imageAlt": "An animated gif scrolling through the Friday Forum Rollup page."
+        },
+        {
+          "imageLink": "/forums/ff-3.jpg",
+          "imageAlt": "Friday Forum Google Ad creative."
+        },
+        {
+          "imageLink": "/forums/ff-4.gif",
+          "imageAlt": "An animated gif used for Google Ads to promote the Friday Forum Rollup page."
+        }
+      ]
+    },
+    {
+      "name": "Hornstein Solutions",
+      "projectUrl": "hornstein",
+      "tagline": "Solving Forward",
+      "categories": ["Branding", "Logo Design"],
+      "thumbnail": "/hornstein/hornstein-thumbnail.jpg",
+      "thumbnailAlt": "Horstein Solutions logo",
+      "projectDescription": "Brian Hornstein reached out to me to help create the brand identity for his freelance CPA and finance business. In our initial meeting, he told me how he used the Japanese concept of sanpo yoshi (the idea of three-way satisfaction that refers to a deal that benefits you, should ultimately also benefit your partners and society at large) as his main business philosophy. My ultimate solution was to use a penrose triangle to represent the concept of sanpo yoshi and the interconnectedness of his service to his clientele’s businesses.",
+      "deliverables": ["Logo", "Brand Assets"],
+      "images": [
+        {
+          "imageLink": "/hornstein/hornstein-1.jpg",
+          "imageAlt": "The Hornstein Solutions logo shown on stationery, desktop and mobile websites, and a pin."
+        },
+        {
+          "imageLink": "/hornstein/hornstein-2.jpg",
+          "imageAlt": "Horstein Solutions stationery and business card."
+        },
+        {
+          "imageLink": "/hornstein/hornstein-3.jpg",
+          "imageAlt": "Closeup of a cellphone displaying the Hornstein Solutions website."
+        },
+        {
+          "imageLink": "/hornstein/hornstein-4.jpg",
+          "imageAlt": "Horstein Solutions business cards."
+        }
+      ]
+    },
+    {
+      "name": "Mysteries & Misdeeds",
+      "projectUrl": "mysteries",
+      "tagline": "Your New Favorite Podcast",
+      "categories": ["Branding", "Logo Design"],
+      "thumbnail": "/mysteries/mysteries-and-misdeeds-thumbnail.jpg",
+      "thumbnailAlt": "Mysteries & Misdeeds logo",
+      "projectDescription": "Mysteries & Misdeeds is your next favorite podcast about those things that make us scratch our heads, double-check locks at night, and rage-scream for change. In 2023, my friends Bri Krantz and Amanda Jeppson approached me to help them with creating a logo for their true crime podcast, Mysteries & Misdeeds. They were looking for a unique and versatile logo that shied away from cliche iconography like podcast microphones. Ultimately, they settled on this solution based on a magic sigil that combines two Ms and a plus sign to represent the initials of the podcast.",
+      "deliverables": ["Logo", "Brand Assets"],
+      "images": [
+        {
+          "imageLink": "/mysteries/mysteries-and-misdeeds-1.jpg",
+          "imageAlt": "A Mysteries & Misdeeds podcast episode displayed on a cellphone."
+        },
+        {
+          "imageLink": "/mysteries/mysteries-and-misdeeds-2.jpg",
+          "imageAlt": "Mysteries & Misdeeds logo emroidered on a beanie being worn by a woman."
+        },
+        {
+          "imageLink": "/mysteries/mysteries-and-misdeeds-3.jpg",
+          "imageAlt": "Mysteries & Misdeeds logo displayed on a clothes tag."
+        },
+        {
+          "imageLink": "/mysteries/mysteries-and-misdeeds-4.jpg",
+          "imageAlt": "Sample of Mysteries & Misdeeds Instagram posts."
+        }
+      ]
+    }
+  ]
+}

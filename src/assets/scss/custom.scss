@@ -1,0 +1,133 @@
+// Overwriting Bootstrap Variables
+// Colors
+$primary: #ff4d4d;
+$secondary: #fff6cc;
+$dark: #23191e;
+
+// Fonts
+$font-family-base: paralucent-text, sans-serif;
+$headings-font-family: paralucent, sans-serif;
+$headings-font-weight: 600;
+$display-font-weight: 600;
+
+// Buttons
+$input-btn-padding-y-lg: 0.75rem;
+$input-btn-padding-x-lg: 1.5rem;
+$btn-border-radius-lg: 0.25rem;
+
+// Badges
+$badge-font-weight: 400;
+$badge-padding-y: 0.75em;
+$badge-padding-x: 1.5em;
+$badge-border-radius: 0.25rem;
+
+// Custom Variables
+$tracking-tighter: -0.05em;
+$tracking-tight: -0.025em;
+$tracking-normal: 0em;
+$tracking-wide: 0.025em;
+$tracking-wider: 0.05em;
+$tracking-widest: 0.1em;
+
+// Include Bootstrap functions and variables
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$custom-spacers: (
+  6: $spacer * 6,
+);
+
+$custom-grid-breakpoints: (
+  xxxl: 1600px,
+);
+
+$custom-container-max-widths: (
+  xxxl: 1500px,
+);
+
+$spacers: map-merge($spacers, $custom-spacers);
+$grid-breakpoints: map-merge($grid-breakpoints, $custom-grid-breakpoints);
+$container-max-widths: map-merge(
+  $container-max-widths,
+  $custom-container-max-widths
+);
+
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+// Custom code
+@import "./animations";
+@import "./buttons";
+@import "./badges";
+@import "./card";
+@import "./scroller";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url("../images/halftone-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+}
+
+p {
+  letter-spacing: $tracking-wider;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+header {
+  z-index: 9999;
+}
+
+hr {
+  background-color: $secondary;
+  height: 2px;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
+
+#hero h1 {
+  font-size: 3.25rem;
+}
+
+.prehead {
+  text-transform: uppercase;
+  color: $secondary;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.brand-logos {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 575px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .prehead {
+    font-size: 1rem;
+  }
+}
