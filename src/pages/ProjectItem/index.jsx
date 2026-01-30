@@ -23,10 +23,6 @@ export default function ProjectItem() {
     return <Spinner animation="border" variant="primary" />;
   }
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <>
       <section id="project">

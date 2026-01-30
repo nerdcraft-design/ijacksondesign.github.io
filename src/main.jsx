@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 // Pages
 import Home from "./pages/Home";
 import ProjectItem from "./pages/ProjectItem";
@@ -24,6 +25,7 @@ createRoot(document.getElementById("root")).render(
     <div className="page-wrapper position-relative">
       <Header />
       <main>
+        <ScrollToTop />
         <RouterProvider router={router} />
         <Footer />
       </main>
