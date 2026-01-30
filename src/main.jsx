@@ -1,11 +1,7 @@
 // React
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  ScrollRestoration,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -29,7 +25,6 @@ createRoot(document.getElementById("root")).render(
       <Header />
       <main>
         <RouterProvider router={router} />
-        <ScrollRestoration />
         <Footer />
       </main>
     </div>
