@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,7 +9,6 @@ import Spinner from "react-bootstrap/Spinner";
 import projectData from "../../projects.json";
 
 export default function ProjectItem() {
-  const location = useLocation();
   const { projectUrl } = useParams();
   const [project, setProject] = useState(null);
 
@@ -18,7 +17,6 @@ export default function ProjectItem() {
       (item) => item.projectUrl === projectUrl,
     );
     setProject(matchedProject);
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, [projectUrl]);
 
   if (project === null) {

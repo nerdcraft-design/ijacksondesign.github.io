@@ -21884,8 +21884,14 @@ textarea.form-control-lg {
     font-size: 2.5rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .card.testimonial .card-body:before {
+    top: -12%;
+    left: -10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  card.testimonial .card-body:before {
     top: -23%;
     left: -4%;
   }
