@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,7 +9,7 @@ import Spinner from "react-bootstrap/Spinner";
 import projectData from "../../projects.json";
 
 export default function ProjectItem() {
-  const { pathname } = useLocation();
+  const location = useLocation();
   const { projectUrl } = useParams();
   const [project, setProject] = useState(null);
 
@@ -18,15 +18,16 @@ export default function ProjectItem() {
       (item) => item.projectUrl === projectUrl,
     );
     setProject(matchedProject);
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, [projectUrl]);
 
   if (project === null) {
     return <Spinner animation="border" variant="primary" />;
   }
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  // }, [location.pathname]);
 
   return (
     <>
