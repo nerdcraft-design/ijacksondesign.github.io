@@ -22,9 +22,11 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
-    <main>
-      <RouterProvider router={router} />
-    </main>
-    <Footer />
+    <div className="h-100 d-flex flex-column justify-content-between">
+      <main>
+        <RouterProvider router={router} />
+      </main>
+      <Footer />
+    </div>
   </StrictMode>,
 );
