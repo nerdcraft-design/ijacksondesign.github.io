@@ -40,6 +40,14 @@ export default function Header() {
                   Portfolio
                 </Nav.Link>
                 <Nav.Link
+                  eventKey="/#process"
+                  href="/#process"
+                  className="me-5"
+                  preventScrollReset={true}
+                >
+                  Process
+                </Nav.Link>
+                <Nav.Link
                   eventKey="/#about"
                   href="/#about"
                   className="me-5"

@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 export default function Process() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5" id="process">
         <Container fluid="xl" className="text-center">
           <h2 className="text-white display-4 mb-5">My Process</h2>
           <Row className="justify-content-center align-items-stretch row-cols-1 row-cols-md-2 row-cols-xl-4 g-3">
