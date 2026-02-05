@@ -21872,6 +21872,10 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+.process-card {
+  border: none;
+}
+
 @media screen and (max-width: 767px) {
   .card h3, .card .h3,
   #project h1,
@@ -21952,18 +21956,18 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
-html {
-  scroll-padding-top: 100px;
-}
-
-main {
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
+body {
   background-image: url("/halftone-background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+main {
+  scroll-padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
   padding-top: 100px;
 }
 

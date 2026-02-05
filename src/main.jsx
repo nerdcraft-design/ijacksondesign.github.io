@@ -21,12 +21,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="page-wrapper position-relative">
-      <Header />
-      <main>
-        <RouterProvider router={router} />
-        <Footer />
-      </main>
-    </div>
+    <Header />
+    <main>
+      <RouterProvider router={router} />
+    </main>
+    <Footer />
   </StrictMode>,
 );

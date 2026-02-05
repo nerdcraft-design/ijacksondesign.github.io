@@ -12,10 +12,7 @@ const projects = projectData.projects;
 export default function Portfolio() {
   return (
     <>
-      <section
-        className="fadeInUp-animation py-3 py-md-5 py-xxl-6"
-        id="portfolio"
-      >
+      <section className="py-3 py-md-5 py-xxl-6" id="portfolio">
         <Container fluid="xl" className="text-white">
           <h2 className="display-4 mb-5">Portfolio</h2>
           <Row>
@@ -42,7 +39,13 @@ export default function Portfolio() {
                             </Col>
                             <Col>
                               <div className="h-100 d-flex align-items-end">
-                                <Button variant="primary">Learn More</Button>
+                                <Link
+                                  to={`/portfolio/${project.projectUrl}`}
+                                  className="btn btn-primary"
+                                  preventScrollReset={true}
+                                >
+                                  Learn More
+                                </Link>
                               </div>
                             </Col>
                           </Row>

@@ -1,6 +1,7 @@
 import Hero from "../../components/Hero";
 import Scroller from "../../components/Scroller";
 import Portfolio from "../../components/Portfolio";
+import Process from "../../components/Process";
 import About from "../../components/About";
 import SkillsScroller from "../../components/SkillsScroller";
 import References from "../../components/References";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Scroller />
       <Portfolio />
+      <Process />
       <About />
       <SkillsScroller />
       <References />

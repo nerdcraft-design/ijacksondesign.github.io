@@ -35,7 +35,7 @@ export default function About() {
                 </p>
                 <p>
                   Now, 20 years and
-                  <strong> 15 years of professional experience</strong> later,
+                  <strong> 14 years of professional experience</strong> later,
                   I'm still creating unique designs, except now I do it to help
                   businesses.
                 </p>
